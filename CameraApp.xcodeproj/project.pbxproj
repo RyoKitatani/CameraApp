@@ -11,6 +11,8 @@
 		5301397A264F567300DECE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53013979264F567300DECE20 /* ContentView.swift */; };
 		5301397C264F567500DECE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5301397B264F567500DECE20 /* Assets.xcassets */; };
 		5301397F264F567500DECE20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5301397E264F567500DECE20 /* Preview Assets.xcassets */; };
+		53013987264F656400DECE20 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53013986264F656400DECE20 /* ImagePicker.swift */; };
+		5301398B264F6B0000DECE20 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301398A264F6B0000DECE20 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5301397B264F567500DECE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5301397E264F567500DECE20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53013980264F567500DECE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53013986264F656400DECE20 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		5301398A264F6B0000DECE20 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				53013977264F567300DECE20 /* CameraAppApp.swift */,
 				53013979264F567300DECE20 /* ContentView.swift */,
+				5301398A264F6B0000DECE20 /* Coordinator.swift */,
+				53013986264F656400DECE20 /* ImagePicker.swift */,
 				5301397B264F567500DECE20 /* Assets.xcassets */,
 				53013980264F567500DECE20 /* Info.plist */,
 				5301397D264F567500DECE20 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5301398B264F6B0000DECE20 /* Coordinator.swift in Sources */,
+				53013987264F656400DECE20 /* ImagePicker.swift in Sources */,
 				5301397A264F567300DECE20 /* ContentView.swift in Sources */,
 				53013978264F567300DECE20 /* CameraAppApp.swift in Sources */,
 			);
@@ -277,7 +285,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.CameraApp";
+				PRODUCT_BUNDLE_IDENTIFIER = CameraApp20210515;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.CameraApp";
+				PRODUCT_BUNDLE_IDENTIFIER = CameraApp20210515;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
