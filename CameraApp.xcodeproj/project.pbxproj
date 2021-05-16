@@ -14,6 +14,7 @@
 		53013987264F656400DECE20 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53013986264F656400DECE20 /* ImagePicker.swift */; };
 		5301398B264F6B0000DECE20 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301398A264F6B0000DECE20 /* Coordinator.swift */; };
 		533414D7264FA0B500E10135 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533414D6264FA0B500E10135 /* UIImageExtensions.swift */; };
+		533414D92650F35F00E10135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533414D82650F35F00E10135 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		53013986264F656400DECE20 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		5301398A264F6B0000DECE20 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		533414D6264FA0B500E10135 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		533414D82650F35F00E10135 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				53013977264F567300DECE20 /* CameraAppApp.swift */,
 				53013979264F567300DECE20 /* ContentView.swift */,
+				533414D82650F35F00E10135 /* LaunchScreen.storyboard */,
 				5301398A264F6B0000DECE20 /* Coordinator.swift */,
 				53013986264F656400DECE20 /* ImagePicker.swift */,
 				533414D6264FA0B500E10135 /* UIImageExtensions.swift */,
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				533414D92650F35F00E10135 /* LaunchScreen.storyboard in Resources */,
 				5301397F264F567500DECE20 /* Preview Assets.xcassets in Resources */,
 				5301397C264F567500DECE20 /* Assets.xcassets in Resources */,
 			);
